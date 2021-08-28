@@ -1,0 +1,29 @@
+.mp-loader,
+.mp-message .mp-demo-fail,
+.mp-message .mp-demo-success {
+    display: none;
+}
+
+.wp-block-demo-site-maker-is-sandbox,
+.wp-block-demo-site-maker-is-not-sandbox {
+    display: flex;
+    flex-direction: row;
+    padding: 14px;
+    background-color: #f8f9f9;
+    font-size: 13px;
+}
+
+.wp-block-demo-site-maker-is-sandbox label,
+.wp-block-demo-site-maker-is-not-sandbox label {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    white-space: nowrap;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+.wp-block-demo-site-maker-is-sandbox .dashicon,
+.wp-block-demo-site-maker-is-not-sandbox .dashicon {
+    margin-right: 8px;
+}
